@@ -2,7 +2,7 @@ package entities;
 
 import java.util.Date;
 
-public class Seller {
+public class Seller implements SellerDao{
 	
 	private Integer id;
 	private String name;
